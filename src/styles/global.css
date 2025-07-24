@@ -3,5 +3,18 @@
 @layer base {
   body {
     @apply antialiased bg-zinc-800 text-zinc-300;
+    font-family: "Fira Code", monospace;
+  }
+
+  .container {
+    @apply mx-auto px-4 max-w-screen;
+  }
+
+  @font-face {
+    font-family: "Fira Code";
+    src: url("/public/fonts/FiraCode-VariableFont_wght.ttf");
+    font-weight: 400 800;
+    font-style: normal;
+    font-display: swap;
   }
 }
